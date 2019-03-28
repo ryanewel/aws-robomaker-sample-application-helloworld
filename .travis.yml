@@ -18,7 +18,6 @@ env:
   - GH_USER_NAME="travis-ci"
   - GH_USER_EMAIL="travis@travis-ci.org"
   - AWS_DEFAULT_REGION=us-west-2
-  - WORKSPACES="robot_ws simulation_ws"
 install:
 - git clone https://github.com/ryanewel/travis-scripts.git .ros_ci
 script:
