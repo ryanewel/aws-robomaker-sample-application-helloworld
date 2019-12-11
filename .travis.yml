@@ -25,4 +25,4 @@ install:
 script:
 - .ros_ci/ce_build.sh
 - ls $TRAVIS_BUILD_DIR/shared/
-- less $TRAVIS_BUILD_DIR/shared/sources.zip
+- unzip -l $TRAVIS_BUILD_DIR/shared/sources.zip
